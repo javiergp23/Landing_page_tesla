@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "homepage": "http://javiergp23.github.io/Landing_page_tesla",
   "scripts": {
-    "predeploy":"npm run dist",
-    "deploy":"gh-pages -d dist",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
